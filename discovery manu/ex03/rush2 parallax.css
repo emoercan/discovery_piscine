@@ -1,0 +1,50 @@
+/* Style de base pour le corps de la page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style du bloc noir */
+  .black-block {
+    background-color: #000;
+    color: #fff;
+    padding: 150px 0;
+    text-align: center;
+  }
+   
+  /* Style du message du bloc noir */
+  .centered-message {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: #ffffff
+  }
+
+  /* Style de la classe parallax */
+.parallax {
+  height: 1920px; /* Hauteur de votre image de parallaxe */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  
+}
+/* Style spécifique pour chaque image de parallaxe */
+#parallax1 {
+  background-image: url('moi.jpg'); /* Chemin vers votre première image de parallaxe */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#parallax2 {
+  background-image: url('moi2.jpg'); /* Chemin vers votre seconde image de parallaxe */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+  

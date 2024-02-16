@@ -1,0 +1,85 @@
+/* Style de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+  }
+  
+  .profile {
+    display: inline-block; /* Permet de centrer horizontalement */
+    text-align: center; /* Centrer le contenu du profil */
+  }
+  
+  .profile img {
+    width: 400px;
+    height: 350px;
+    border-radius: 0%;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .social {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center; /* Centrer horizontalement les icônes */
+  }
+  
+  .social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* Pour aligner horizontalement les icônes */
+  }
+
+  .social ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .social ul li img {
+    width: 40px; /* Définir la même largeur pour toutes les icônes */
+    height: 40px; /* Définir la même hauteur pour toutes les icônes */
+  }
+  
+  /* Centrer horizontalement les expériences professionnelles à gauche */
+  .experience {
+    text-align: left;
+  }
+  .experience ul {
+    list-style-type: disc; /* Utiliser des points comme style de liste */
+  }
+  footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
